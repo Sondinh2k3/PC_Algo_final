@@ -1,0 +1,416 @@
+{
+  "metadata": {
+    "network_file": "zurich.net.xml",
+    "generated_at": "default",
+    "total_intersections": 8,
+    "total_traffic_lights": 8
+  },
+  "traffic_lights": {
+    "B3": {
+      "type": "static",
+      "phases": [
+        {
+          "duration": 42.00,
+          "state": "rrrrGGggrrrrGGgg"
+        },
+        {
+          "duration": 3.00,
+          "state": "rrrryyyyrrrryyyy"
+        },
+        {
+          "duration": 42.00,
+          "state": "GGggrrrrGGggrrrr"
+        },
+        {
+          "duration": 3.00,
+          "state": "yyyyrrrryyyyrrrr"
+        }
+      ],
+      "total_cycle": 90
+    },
+    "B2": {
+      "type": "static",
+      "phases": [
+        {
+          "duration": 42.00,
+          "state": "rrrrGGggrrrrGGgg"
+        },
+        {
+          "duration":3.00,
+          "state": "rrrryyyyrrrryyyy"
+        },
+                {
+          "duration":42.00,
+          "state": "GGggrrrrGGggrrrr"
+        },
+                {
+          "duration":3.00,
+          "state": "yyyyrrrryyyyrrrr"
+        }
+      ],
+      "total_cycle": 90
+    },
+    "B1": {
+      "type": "static",
+      "phases": [
+        {
+          "duration": 42.00,
+          "state": "GGggrrrrGGggrrrr"
+        },
+        {
+          "duration": 3.00,
+          "state": "yyyyrrrryyyyrrrr"
+        },
+        {
+          "duration": 42.00,
+          "state": "rrrrGGggrrrrGGgg"
+        },
+        {
+          "duration": 3.00,
+          "state": "rrrryyyyrrrryyyy"
+        }
+      ],
+      "total_cycle": 90
+    },
+    "C3": {
+      "type": "static",
+      "phases": [
+        {
+          "duration": 42.00,
+          "state": "GGggrrrrGGggrrrr"
+        },
+        {
+          "duration": 3.00,
+          "state": "yyyyrrrryyyyrrrr"
+        },
+        {
+          "duration": 42.00,
+          "state": "rrrrGGggrrrrGGgg"
+        },
+        {
+          "duration": 3.00,
+          "state": "rrrryyyyrrrryyyy"
+        }
+      ],
+      "total_cycle": 90
+    },
+    "C1": {
+      "type": "static",
+      "phases": [
+        {
+          "duration": 42.00,
+          "state": "GGggrrrrGGggrrrr"
+        },
+        {
+          "duration": 3.00,
+          "state": "yyyyrrrryyyyrrrr"
+        },
+        {
+          "duration": 42.00,
+          "state": "rrrrGGggrrrrGGgg"
+        },
+        {
+          "duration": 3.00,
+          "state": "rrrryyyyrrrryyyy"
+        }
+      ],
+      "total_cycle": 90
+    },
+    "D3": {
+      "type": "static",
+      "phases": [
+        {
+          "duration": 42.00,
+          "state": "GGggrrrrGGggrrrr"
+        },
+        {
+          "duration": 3.00,
+          "state": "yyyyrrrryyyyrrrr"
+        },
+        {
+          "duration": 42.00,
+          "state": "rrrrGGggrrrrGGgg"
+        },
+        {
+          "duration": 3.00,
+          "state": "rrrryyyyrrrryyyy"
+        }
+      ],
+      "total_cycle": 90
+    },
+    "D2": {
+      "type": "static",
+      "phases": [
+        {
+          "duration": 42.00,
+          "state": "GGggrrrrGGggrrrr"
+        },
+        {
+          "duration": 3.00,
+          "state": "yyyyrrrryyyyrrrr"
+        },
+        {
+          "duration": 42.00,
+          "state": "rrrrGGggrrrrGGgg"
+        },
+        {
+          "duration": 3.00,
+          "state": "rrrryyyyrrrryyyy"
+        }
+      ],
+      "total_cycle": 90
+    },
+    "D1": {
+      "type": "static",
+      "phases": [
+        {
+          "duration": 42.00,
+          "state": "rrrrGGggrrrrGGgg"
+        },
+        {
+          "duration": 3.00,
+          "state": "rrrryyyyrrrryyyy"
+        },
+        {
+          "duration": 42.00,
+          "state": "GGggrrrrGGggrrrr"
+        },
+        {
+          "duration": 3.00,
+          "state": "yyyyrrrryyyyrrrr"
+        }
+      ],
+      "total_cycle": 90
+    }
+  },
+  "intersections": {
+    "B3": {
+      "id": "B3",
+      "traffic_light_id": "B3",
+      "type": "traffic_light", 
+      "x": 0.0,
+      "y": 0.0
+    },
+    "B2": {
+      "id": "B2",
+      "traffic_light_id": "B2",
+      "type": "traffic_light",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "B1": {
+      "id": "B1",
+      "traffic_light_id": "B1",
+      "type": "traffic_light",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "C3": {
+      "id": "C3",
+      "traffic_light_id": "C3",
+      "type": "traffic_light",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "C1": {
+      "id": "C1",
+      "traffic_light_id": "C1",
+      "type": "traffic_light",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "D3": {
+      "id": "D3",
+      "traffic_light_id": "D3",
+      "type": "traffic_light",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "D2": {
+      "id": "D2",
+      "traffic_light_id": "D2",
+      "type": "traffic_light",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "D1": {
+      "id": "D1",
+      "traffic_light_id": "D1",
+      "type": "traffic_light",
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  "optimization_parameters": {
+    "intersection_ids": [
+      "B3",
+      "B2",
+      "B1",
+      "C3",
+      "C1",
+      "D3",
+      "D2",
+      "D1"
+    ],
+    "theta_1": 1.0,
+    "theta_2": 1.0,
+    "default_cycle_length": 90,
+    "min_green_time": 15,
+    "max_green_time": 75,
+    "max_change": 10,
+    "intersection_data": {
+      "B3": {
+        "cycle_length": 84,
+        "phases": {
+          "p": {
+            "phase_indices": [0],
+            "saturation_flow": 0.5,
+            "turn_in_ratio": 0.7,
+            "queue_length": 15
+          },
+          "s": [
+            {
+              "phase_indices": [2],
+              "saturation_flow": 0.5,
+              "turn_in_ratio": 0.9,
+              "queue_length": 8
+            }
+          ]
+        }
+      },
+      "B2": {
+        "cycle_length": 84,
+        "phases": {
+          "p": {
+            "phase_indices": [0],
+            "saturation_flow": 0.5,
+            "turn_in_ratio": 0.8,
+            "queue_length": 20
+          },
+          "s": [
+            {
+              "phase_indices": [2],
+              "saturation_flow": 0.5,
+              "turn_in_ratio": 0.5,
+              "queue_length": 10
+            }
+          ]
+        }
+      },
+      "B1": {
+        "cycle_length": 84,
+        "phases": {
+          "p": {
+            "phase_indices": [0],
+            "saturation_flow": 0.5,
+            "turn_in_ratio": 0.5,
+            "queue_length": 20
+          },
+          "s": [
+            {
+              "phase_indices": [2],
+              "saturation_flow": 0.5,
+              "turn_in_ratio": 0.5,
+              "queue_length": 10
+            }
+          ]
+        }
+      },
+      "C3": {
+        "cycle_length": 84,
+        "phases": {
+          "p": {
+            "phase_indices": [2],
+            "saturation_flow": 0.5,
+            "turn_in_ratio": 0.5,
+            "queue_length": 20
+          },
+          "s": [
+            {
+              "phase_indices": [0],
+              "saturation_flow": 0.5,
+              "turn_in_ratio": 0.5,
+              "queue_length": 10
+            }
+          ]
+        }
+      },
+      "C1": {
+        "cycle_length": 84,
+        "phases": {
+          "p": {
+            "phase_indices": [0],
+            "saturation_flow": 0.5,
+            "turn_in_ratio": 0.5,
+            "queue_length": 20
+          },
+          "s": [
+            {
+              "phase_indices": [2],
+              "saturation_flow": 0.5,
+              "turn_in_ratio": 0.5,
+              "queue_length": 10
+            }
+          ]
+        }
+      },
+      "D3": {
+        "cycle_length": 84,
+        "phases": {
+          "p": {
+            "phase_indices": [0],
+            "saturation_flow": 0.5,
+            "turn_in_ratio": 0.5,
+            "queue_length": 20
+          },
+          "s": [
+            {
+              "phase_indices": [2],
+              "saturation_flow": 0.5,
+              "turn_in_ratio": 0.5,
+              "queue_length": 10
+            }
+          ]
+        }
+      },
+      "D2": {
+        "cycle_length": 84,
+        "phases": {
+          "p": {
+            "phase_indices": [0],
+            "saturation_flow": 0.5,
+            "turn_in_ratio": 0.5,
+            "queue_length": 20
+          },
+          "s": [
+            {
+              "phase_indices": [2],
+              "saturation_flow": 0.5,
+              "turn_in_ratio": 0.5,
+              "queue_length": 10
+            }
+          ]
+        }
+      },
+      "D1": {
+        "cycle_length": 84,
+        "phases": {
+          "p": {
+            "phase_indices": [0],
+            "saturation_flow": 0.5,
+            "turn_in_ratio": 0.5,
+            "queue_length": 12
+          },
+          "s": [
+            {
+              "phase_indices": [2],
+              "saturation_flow": 0.5,
+              "turn_in_ratio": 0.5,
+              "queue_length": 6
+            }
+          ]
+        }
+      }
+    }
+  }
+}

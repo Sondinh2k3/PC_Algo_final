@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-09-08 11:03:47 by Eclipse SUMO sumo Version 1.24.0
+-->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="zurich.net.xml"/>
+        <route-files value="zurich.rou.xml,zurich-demo.rou.xml"/>
+        <additional-files value="detector.add.xml"/>
+    </input>
+
+    <!-- <output>
+        <tripinfo-output value="../../output/tripinfo_baseline.xml"/>
+        <vehroute-output value="../../output/vehroutes_baseline.xml"/>
+        <edgedata-output value="../../output/edgedata_baseline.xml"/>
+    </output> -->
+
+    <time>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.5"/>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="50"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="zurich.view.xml"/>
+    </gui_only>
+
+</sumoConfiguration>

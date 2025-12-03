@@ -1,0 +1,18 @@
+type: "sumo"
+config:
+  config_file: "network_test/zurich.sumocfg"
+  net_file: "network_test/zurich.net.xml"
+  route_file: "network_test/zurich.rou.xml"
+  # additional_file: "./sumo/osm.add.xml"
+  port: 8814
+  step_length: 0.1 # seconds
+  steps_delay: 100   #ms
+  time_to_teleport: 1000
+  gui: true
+  detector:
+    period: 10  # seconds
+  simulation_level: "evaluation"
+  # --- Main loop parameters ---
+  sampling_interval_s: 10      # (seconds) How often to sample data from detectors
+  aggregation_interval_s: 50   # (seconds) How often to aggregate the sampled data
+  total_simulation_time: 8000 # (seconds) Total duration of the simulation
