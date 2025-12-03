@@ -958,6 +958,71 @@
           ]
         }
       },
+      "zurich_ts_37": {
+        "phases": {
+          "p": {
+            "queue_detectors": [
+              "e2_175",
+              "e2_176",
+              "e2_177",
+              "e2_178"
+            ],
+            "queue2_detector": [
+              "e1_167",
+              "e1_165",
+              "e1_166",
+              "e1_168"
+            ]
+          },
+          "s": [
+            {
+              "queue_detectors": [
+                "e2_175",
+                "e2_176",
+                "e2_177",
+                "e2_178"
+              ],
+              "queue2_detector": [
+                "e1_167",
+                "e1_165",
+                "e1_166",
+                "e1_168"
+              ],
+              "comment": "Secondary Phase 1"
+            },
+            {
+              "queue_detectors": [
+                "e2_175",
+                "e2_176",
+                "e2_177",
+                "e2_178"
+              ],
+              "queue2_detector": [
+                "e1_167",
+                "e1_165",
+                "e1_166",
+                "e1_168"
+              ],
+              "comment": "Secondary Phase 2"
+            },
+            {
+              "queue_detectors": [
+                "e2_175",
+                "e2_176",
+                "e2_177",
+                "e2_178"
+              ],
+              "queue2_detector": [
+                "e1_167",
+                "e1_165",
+                "e1_166",
+                "e1_168"
+              ],
+              "comment": "Secondary Phase 3"
+            }
+          ]
+        }
+      },
       "zurich_ts_38": {
         "phases": {
           "p": {
