@@ -449,7 +449,113 @@
       "total_cycle": 99
     }
   },
-  "intersections": {},
+  "intersections": {
+    "zurich_ts_1": {
+      "id": "zurich_ts_1",
+      "traffic_light_id": "zurich_ts_1",
+      "type": "traffic_light",
+      "x": 3316.16,
+      "y": 3112.82
+    },
+    "zurich_ts_12": {
+      "id": "zurich_ts_12",
+      "traffic_light_id": "zurich_ts_12",
+      "type": "traffic_light",
+      "x": 3806.28,
+      "y": 1512.7
+    },
+    "zurich_ts_13": {
+      "id": "zurich_ts_13",
+      "traffic_light_id": "zurich_ts_13",
+      "type": "traffic_light",
+      "x": 3856.22,
+      "y": 1597.9
+    },
+    "zurich_ts_17": {
+      "id": "zurich_ts_17",
+      "traffic_light_id": "zurich_ts_17",
+      "type": "traffic_light",
+      "x": 3663.72,
+      "y": 1134.62
+    },
+    "zurich_ts_19": {
+      "id": "zurich_ts_19",
+      "traffic_light_id": "zurich_ts_19",
+      "type": "traffic_light",
+      "x": 2995.18,
+      "y": 1266.16
+    },
+    "zurich_ts_20": {
+      "id": "zurich_ts_20",
+      "traffic_light_id": "zurich_ts_20",
+      "type": "traffic_light",
+      "x": 2424.76,
+      "y": 1288.32
+    },
+    "zurich_ts_21": {
+      "id": "zurich_ts_21",
+      "traffic_light_id": "zurich_ts_21",
+      "type": "traffic_light",
+      "x": 2348.96,
+      "y": 1364.12
+    },
+    "zurich_ts_22": {
+      "id": "zurich_ts_22",
+      "traffic_light_id": "zurich_ts_22",
+      "type": "traffic_light",
+      "x": 2264.88,
+      "y": 1438.28
+    },
+    "zurich_ts_23": {
+      "id": "zurich_ts_23",
+      "traffic_light_id": "zurich_ts_23",
+      "type": "traffic_light",
+      "x": 2144.4,
+      "y": 1560.24
+    },
+    "zurich_ts_24": {
+      "id": "zurich_ts_24",
+      "traffic_light_id": "zurich_ts_24",
+      "type": "traffic_light",
+      "x": 2058.18,
+      "y": 1667.94
+    },
+    "zurich_ts_25": {
+      "id": "zurich_ts_25",
+      "traffic_light_id": "zurich_ts_25",
+      "type": "traffic_light",
+      "x": 1881.22,
+      "y": 2017.54
+    },
+    "zurich_ts_36": {
+      "id": "zurich_ts_36",
+      "traffic_light_id": "zurich_ts_36",
+      "type": "traffic_light",
+      "x": 2023.42,
+      "y": 2782.8
+    },
+    "zurich_ts_37": {
+      "id": "zurich_ts_37",
+      "traffic_light_id": "zurich_ts_37",
+      "type": "traffic_light",
+      "x": 1896.34,
+      "y": 2568.96
+    },
+    "zurich_ts_38": {
+      "id": "zurich_ts_38",
+      "traffic_light_id": "zurich_ts_38",
+      "type": "traffic_light",
+      "x": 2210.38,
+      "y": 3082.32
+    },
+    "zurich_ts_40": {
+      "id": "zurich_ts_40",
+      "traffic_light_id": "zurich_ts_40",
+      "type": "traffic_light",
+      "x": 2843.4,
+      "y": 3160.48
+    }
+  },
   "optimization_parameters": {
     "intersection_ids": [
       "zurich_ts_1",

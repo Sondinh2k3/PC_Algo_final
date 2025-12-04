@@ -21,6 +21,7 @@ class SumoSim:
         self.config = config
         self.sumo_binary = sumolib.checkBinary('sumo-gui' if self.config['gui'] else 'sumo')
         self.step_count = 0
+        self._running = False
 
     #start sumo
     #open connection with traci
@@ -45,6 +46,7 @@ class SumoSim:
 
         try:
             traci.start(sumo_cmd, port=self.config['port'])
+            self._running = True
             logging.info("SUMO simulation started with command: %s", ' '.join(sumo_cmd))
         except Exception as e:
             logging.error(f"Error starting SUMO: {e}", exc_info=True)
@@ -56,8 +58,12 @@ class SumoSim:
         self.step_count += 1
     
     def close(self):
+        self._running = False
         traci.close()
     
+    def is_running(self):
+        return self._running
+
     def get_step_counts(self)-> int:
         return self.step_count
 

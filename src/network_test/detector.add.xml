@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-11-26T16:27:12.357907+07:00 by Eclipse SUMO netedit 1.25.0
+<!-- generated on 2025-12-04T09:26:35.995419+07:00 by Eclipse SUMO netedit 1.25.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
@@ -106,7 +106,7 @@
     <inductionLoop id="e1_187" lane="-26646784#1_0" pos="102.91" period="10.00" file="e1_187.xml"/>
     <inductionLoop id="e1_188" lane="683609958#3_0" pos="102.95" period="10.00" file="e1_188.xml"/>
     <inductionLoop id="e1_19" lane="29116101#3_0" pos="97.71" period="10.00" file="e1_19.xml"/>
-    <inductionLoop id="e1_2" lane="-4533227#1.24_0" pos="268.63" period="10.00" file="e1_2.xml"/>
+    <inductionLoop id="e1_2" lane="zurich_ts_1_0" pos="268.63" period="10.00" file="e1_2.xml"/>
     <inductionLoop id="e1_20" lane="1172206635_0" pos="42.63" period="10.00" file="e1_20.xml"/>
     <inductionLoop id="e1_21" lane="-29116101#2_0" pos="89.83" period="10.00" file="e1_21.xml"/>
     <inductionLoop id="e1_22" lane="313465298#1_0" pos="224.38" period="10.00" file="e1_22.xml"/>
@@ -305,7 +305,7 @@
     <laneAreaDetector id="e2_197" lane="-26646784#1_0" pos="20.64" length="80.00" period="10.00" file="e2_197.xml"/>
     <laneAreaDetector id="e2_198" lane="-683609958#8_0" pos="0.48" length="70.00" period="10.00" file="e2_198.xml"/>
     <laneAreaDetector id="e2_199" lane="15675937#0_1" pos="258.02" length="80.00" period="10.00" file="e2_199.xml"/>
-    <laneAreaDetector id="e2_2" lane="-4533227#1.24_0" pos="188.72" length="80.00" period="10.00" file="e2_2.xml"/>
+    <laneAreaDetector id="e2_2" lane="zurich_ts_1_0" pos="188.72" length="80.00" period="10.00" file="e2_2.xml"/>
     <laneAreaDetector id="e2_20" lane="26645942#0_0" pos="0.49" length="70.00" period="10.00" file="e2_20.xml"/>
     <laneAreaDetector id="e2_200" lane="15675937#0_0" pos="258.07" length="80.00" period="10.00" file="e2_200.xml"/>
     <laneAreaDetector id="e2_201" lane="526016660#0_0" pos="7.15" length="50.00" period="10.00" file="e2_201.xml"/>
