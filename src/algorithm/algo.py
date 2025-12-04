@@ -23,7 +23,7 @@ from algorithm.solver import solve_green_time_optimization
 # === CONSTANTS ===
 KP_H = 20
 KI_H = 5
-N_HAT = 280.0
+N_HAT = 1000.0
 CONTROL_INTERVAL_S = 90
 
 @dataclass

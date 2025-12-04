@@ -24,7 +24,7 @@
     <processing>
         <lateral-resolution value="0.5"/>
         <ignore-route-errors value="true"/>
-        <time-to-teleport value="50"/>
+        <time-to-teleport value="500"/>
         <tls.actuated.jam-threshold value="30"/>
     </processing>
 
